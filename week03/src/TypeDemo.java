@@ -31,3 +31,14 @@ public class TypeDemo {
         // 1010 1100(2) == -84 , byte
     }
 }
+
+/*
+#include <stdio.h>
+
+int main() {
+    char c = 0x41;
+    printf("%c %d %x %o\n", c, c, c, c);
+    printf("%.20lf\n", 0.1+0.2);
+    return 0;
+}
+ */

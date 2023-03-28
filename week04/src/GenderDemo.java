@@ -7,8 +7,7 @@ public class GenderDemo {
         String socialSecurityNumber = scanner.nextLine();
 
         char gender = socialSecurityNumber.charAt(6);
-//        System.out.println(socialSecurityNumber);
-//        System.out.println(gender);
+
         switch (gender){
             case '1':
             case '3':
@@ -18,6 +17,8 @@ public class GenderDemo {
             case '4':
                 System.out.println("Female");
                 break;
+            default:
+                System.out.println("Wrong ssn!");
         }
     }
 }
